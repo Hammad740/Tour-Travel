@@ -119,7 +119,7 @@ body {
   opacity: 0.8;
   cursor: pointer;
 }
-/ .btn-2 {
+.btn-2 {
   background-color: lightseagreen;
   padding: 10px 26px;
   outline: none;
@@ -129,4 +129,70 @@ body {
 }
 .price-badge {
   font-size: 1.2rem;
+}
+
+/* // video section */
+.video {
+  position: relative;
+  margin: 20px;
+  padding: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../src//images/lighthouse-1872998_1920.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.tour {
+  margin: 35px auto;
+  text-transform: uppercase;
+  color: lightseagreen;
+  font-size: 2.2rem;
+  letter-spacing: 0.4rem;
+}
+
+.player {
+  margin-left: 40px;
+}
+.children {
+  max-width: 45rem;
+  position: absolute;
+  top: 80px;
+  left: 800px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 35px 10px;
+  margin-right: 40px;
+}
+
+.btn-3 {
+  margin: 60px 20px auto;
+}
+@media screen and (max-width: 900px) {
+  .video {
+    display: none;
+  }
+  .children {
+    display: none;
+  }
+  .tour {
+    display: none;
+  }
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+.footer p {
+  margin-top: 3rem;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: lightseagreen;
 }

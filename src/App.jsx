@@ -1,15 +1,17 @@
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import { Main } from './components/Main';
 import './index.css';
+import Video from './components/Video';
 const App = () => {
   return (
     <div>
       <Navbar />
       <Hero />
       <Main />
-      <Home />
+      <Video />
+      <Footer />
     </div>
   );
 };
