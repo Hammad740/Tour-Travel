@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+  background-color: white;
+  color: rgb(108, 108, 108);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.navbar img {
+  height: 40px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  column-gap: 25px;
+  margin-right: 10px;
+}
+.navbar ul li {
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(108, 108, 108);
+  text-underline-offset: 8px;
+  transform: scale(1.05);
+}
