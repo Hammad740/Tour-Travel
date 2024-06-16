@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+body {
+  background-color: whitesmoke;
 }
 .navbar {
-  background-color: white;
-  color: rgb(108, 108, 108);
+  background-color: whitesmoke;
+  color: lightseagreen;
   height: 50px;
   display: flex;
   align-items: center;
@@ -26,6 +30,7 @@
   display: flex;
   column-gap: 25px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 .navbar ul li {
   text-decoration: none;
@@ -36,7 +41,92 @@
 
 .navbar ul li:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(108, 108, 108);
+  text-decoration-color: lightseagreen;
   text-underline-offset: 8px;
   transform: scale(1.05);
+}
+
+/* // hero section */
+.hero {
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./images/indiana-dunes-state-park-1848559_1920.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 20px 30px;
+}
+.hero-banner {
+  text-align: center;
+  padding: 0 3rem;
+  color: white;
+}
+.hero-banner h4 {
+  font-size: 2.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+.hero-banner p {
+  font-size: 1.3rem;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero-btn {
+  font-size: 1.25rem;
+  padding: 5px 20px;
+  background-color: white;
+  color: rgb(118, 118, 118);
+  text-decoration: none;
+  border: 3px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.main h4 {
+  margin: 50px auto;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+  color: lightseagreen;
+}
+.card-body h5 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: lightseagreen;
+}
+.col-lg-4 {
+  position: relative;
+}
+.row img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+.row img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/ .btn-2 {
+  background-color: lightseagreen;
+  padding: 10px 26px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+.price-badge {
+  font-size: 1.2rem;
 }
