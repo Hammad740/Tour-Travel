@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Hero = () => {
   return (
     <div>
@@ -9,7 +11,10 @@ const Hero = () => {
               &quot;The most beautiful in the world is, of course, the world
               itself.&quot; – Wallace Stevens
             </p>
-            <button className="hero-btn">Search</button>
+
+            <NavLink to={'/travel'}>
+              <button className="hero-btn">Search</button>
+            </NavLink>
           </div>
         </div>
       </header>

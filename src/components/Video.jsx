@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import sampleVideo from '../images/sea-24216.mp4';
 
 import ReactPlayer from 'react-player';
@@ -13,7 +14,9 @@ const Video = () => {
             transformative experience that opens doors to new cultures,
             landscapes, and perspectives.
           </p>
-          <button className="hero-btn btn-3">Visit</button>
+          <NavLink to={'/travel'}>
+            <button className="hero-btn btn-3">Visit</button>
+          </NavLink>
         </div>
       </div>
     </>
