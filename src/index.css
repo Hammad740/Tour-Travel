@@ -235,3 +235,11 @@ body {
   letter-spacing: 0.15rem;
   color: #404040;
 }
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  place-items: center;
+  margin-top: 200px;
+}
